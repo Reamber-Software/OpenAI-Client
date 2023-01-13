@@ -1,0 +1,51 @@
+<!-- Maven Settings for the Gitlab CI Runner -->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+<servers>
+    <server>
+        <id>snapshots.reamber.com</id>
+        <configuration>
+            <httpHeaders>
+                <property>
+                    <name>Job-Token</name>
+                    <value>${env.CI_JOB_TOKEN}</value>
+                </property>
+            </httpHeaders>
+        </configuration>
+    </server>
+    <server>
+        <id>releases.reamber.com</id>
+        <configuration>
+            <httpHeaders>
+                <property>
+                    <name>Job-Token</name>
+                    <value>${env.CI_JOB_TOKEN}</value>
+                </property>
+            </httpHeaders>
+        </configuration>
+    </server>
+</servers>
+<profiles>
+    <profile>
+        <id>reamber.com</id>
+        <repositories>
+            <repository>
+                <id>snapshots.reamber.com</id>
+                <url>https://gitlab.com/api/v4/groups/10108413/-/packages/maven/</url>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+            </repository>
+            <repository>
+                <id>releases.reamber.com</id>
+                <url>https://gitlab.com/api/v4/groups/10108413/-/packages/maven/</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </repository>
+        </repositories>
+    </profile>
+</profiles>
+</settings>

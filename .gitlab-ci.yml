@@ -1,0 +1,3 @@
+include:
+    - project: 'reamber/infrastructure/cloud-templates'
+      file: 'gitlab/build-library-java-17.yml'
