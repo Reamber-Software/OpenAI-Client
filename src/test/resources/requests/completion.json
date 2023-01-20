@@ -1,0 +1,24 @@
+{
+  "model": "text-davinci-003",
+  "suffix": "It indeed is.",
+  "temperature": 0.0,
+  "n": 1,
+  "stream": false,
+  "logprobs": 1,
+  "echo": false,
+  "user": "OpenAI User",
+  "prompt": [
+    "This is a test"
+  ],
+  "max_tokens": 10,
+  "top_p": 0.0,
+  "stop": [
+    "."
+  ],
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0,
+  "best_of": 1,
+  "logit_bias": {
+    "50256": 100
+  }
+}

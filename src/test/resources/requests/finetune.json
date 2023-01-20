@@ -1,0 +1,16 @@
+{
+  "model": "curie",
+  "suffix": "curie:custom-model",
+  "training_file": "fineTuneFile",
+  "validation_file": "validationTuneFile",
+  "n_epochs": 4,
+  "batch_size": 0,
+  "learning_rate_multiplier": 0.05,
+  "prompt_loss_weight": 0.01,
+  "compute_classification_metrics": false,
+  "classification_n_classes": 1,
+  "classification_positive_class": "Test",
+  "classification_betas": [
+    1
+  ]
+}

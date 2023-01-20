@@ -1,0 +1,5 @@
+{
+  "model": "text-embedding-ada-002",
+  "input": "This is a test",
+  "user": "OpenAI User"
+}

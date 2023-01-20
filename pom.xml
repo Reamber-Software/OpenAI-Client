@@ -18,7 +18,16 @@
         <maven.compiler.target>17</maven.compiler.target>
 
         <feign.version>12.1</feign.version>
+        <lombok.version>1.18.24</lombok.version>
     </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <dependencies>
 
@@ -26,6 +35,11 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-java11</artifactId>
             <version>${feign.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign.form</groupId>
+            <artifactId>feign-form</artifactId>
+            <version>3.8.0</version>
         </dependency>
         <dependency>
             <groupId>io.github.openfeign</groupId>
@@ -63,7 +77,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>${lombok.version}</version>
             <scope>provided</scope>
             <optional>true</optional>
         </dependency>
@@ -102,7 +116,7 @@
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <version>1.18.24</version>
+                            <version>${lombok.version}</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>

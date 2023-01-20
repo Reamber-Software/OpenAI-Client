@@ -1,0 +1,27 @@
+{
+  "id": "modr-6aSDwISwlkEZpk9lJ04wfwl9OmhAz",
+  "model": "text-moderation-001",
+  "results": [
+    {
+      "categories": {
+        "hate": false,
+        "hate/threatening": false,
+        "self-harm": false,
+        "sexual": false,
+        "sexual/minors": false,
+        "violence": false,
+        "violence/graphic": false
+      },
+      "category_scores": {
+        "hate": 0.5707283616065979,
+        "hate/threatening": 0.0003723404952324927,
+        "self-harm": 0.0005281483172439039,
+        "sexual": 0.001865023747086525,
+        "sexual/minors": 0.0013007381930947304,
+        "violence": 0.012357172556221485,
+        "violence/graphic": 0.00040579380583949387
+      },
+      "flagged": false
+    }
+  ]
+}

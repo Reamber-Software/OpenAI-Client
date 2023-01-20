@@ -1,0 +1,4 @@
+{
+  "model": "text-moderation-latest",
+  "input": "This is a test"
+}

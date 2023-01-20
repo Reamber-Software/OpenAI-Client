@@ -1,0 +1,8 @@
+{
+  "model": "text-davinci-edit-001",
+  "input": "This is a",
+  "instruction": "finish the sentence",
+  "n": 1,
+  "temperature": 0.9,
+  "top_p": 0.0
+}

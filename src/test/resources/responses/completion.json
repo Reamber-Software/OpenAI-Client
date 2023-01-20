@@ -1,0 +1,70 @@
+{
+  "id": "cmpl-6ZzkoWqASXy3BCn2eUnhfGYZBLnS2",
+  "object": "text_completion",
+  "created": 1674036882,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": ",\n\nI hope this email",
+      "index": 0,
+      "logprobs": {
+        "tokens": [
+          ",",
+          "\n",
+          "\n",
+          "I",
+          " hope",
+          " this",
+          " email"
+        ],
+        "token_logprobs": [
+          -1.2091616,
+          -0.89735174,
+          -0.0051715137,
+          -0.5964738,
+          -1.0600469,
+          -0.76729846,
+          -0.6803218
+        ],
+        "top_logprobs": [
+          {
+            ",": -1.2091616
+          },
+          {
+            "\n": -0.89735174
+          },
+          {
+            "\n": -0.0051715137
+          },
+          {
+            "I": -0.5964738
+          },
+          {
+            " hope": -1.0600469
+          },
+          {
+            " this": -0.76729846
+          },
+          {
+            " email": -0.6803218
+          }
+        ],
+        "text_offset": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          21,
+          26
+        ]
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2,
+    "completion_tokens": 7,
+    "total_tokens": 9
+  }
+}
