@@ -27,7 +27,7 @@ import java.io.File;
 @Headers({
         "Content-Type: application/json"
 })
-public interface OpenAiClient {
+public interface OpenAIClient {
 
     /**
      * Lists the currently available models, and provides basic information about each one such as the owner and availability.

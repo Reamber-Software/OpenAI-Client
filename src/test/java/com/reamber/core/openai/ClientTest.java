@@ -25,7 +25,7 @@ class ClientTest {
                 .decoder(new JacksonDecoder())
                 .logger(new Slf4jLogger())
                 .logLevel(Logger.Level.HEADERS)
-                .target(OpenAiClient.class, "https://api.openai.com");
+                .target(OpenAIClient.class, "https://api.openai.com");
 
         assertNotNull(client);
     }

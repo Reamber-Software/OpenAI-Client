@@ -1,7 +1,7 @@
 package com.reamber.core.openai.model.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.reamber.core.openai.OpenAiClient;
+import com.reamber.core.openai.OpenAIClient;
 import com.reamber.core.openai.model.response.model.Model;
 import lombok.Builder;
 import lombok.Data;
@@ -18,7 +18,7 @@ import java.util.Map;
 public class CompletionRequest {
 
     /**
-     * ID of the model to use. You can use the List models API {@link OpenAiClient#getModels()} or {@link Model} to see all of your available models.
+     * ID of the model to use. You can use the List models API {@link OpenAIClient#getModels()} or {@link Model} to see all of your available models.
      *
      * @see <a href="https://beta.openai.com/docs/models/overview">Model overview</a>
      */
