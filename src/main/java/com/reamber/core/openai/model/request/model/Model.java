@@ -1,10 +1,10 @@
-package com.reamber.core.openai.model.response.model;
+package com.reamber.core.openai.model.request.model;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.RequiredArgsConstructor;
 
 /**
- * <a href="https://beta.openai.com/docs/api-reference/models">Model</a>
+ * <a href="https://platform.openai.com/docs/api-reference/models">Model</a>
  */
 @RequiredArgsConstructor
 public enum Model {
@@ -131,7 +131,11 @@ public enum Model {
 
     TEXT_SIMILARITY_CURIE_001("text-similarity-curie-001"),
 
-    TEXT_SIMILARITY_DAVINCI_001("text-similarity-davinci-001");
+    TEXT_SIMILARITY_DAVINCI_001("text-similarity-davinci-001"),
+
+    GPT_3_5_TURBO("gpt-3.5-turbo"),
+
+    GPT_3_5_TURBO_0301("gpt-3.5-turbo-0301");
 
     private final String modelName;
 

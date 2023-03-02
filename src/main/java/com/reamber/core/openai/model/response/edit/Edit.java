@@ -9,7 +9,7 @@ import lombok.EqualsAndHashCode;
 import java.util.List;
 
 /**
- * <a href="https://beta.openai.com/docs/api-reference/edits">Edits</a>
+ * <a href="https://platform.openai.com/docs/api-reference/edits">Edits</a>
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * <a href="https://beta.openai.com/docs/api-reference/embeddings">Embeddings</a>
+ * <a href="https://platform.openai.com/docs/api-reference/embeddings">Embeddings</a>
  */
 @Data
 public class EmbeddingEntry {

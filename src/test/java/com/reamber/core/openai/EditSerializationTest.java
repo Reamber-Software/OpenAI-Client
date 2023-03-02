@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.reamber.core.openai.model.request.EditRequest;
 import com.reamber.core.openai.model.response.Choice;
 import com.reamber.core.openai.model.response.edit.Edit;
-import com.reamber.core.openai.model.response.model.Model;
+import com.reamber.core.openai.model.request.model.Model;
 import com.reamber.core.openai.util.FileUtil;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;

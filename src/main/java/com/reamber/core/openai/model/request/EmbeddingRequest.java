@@ -1,12 +1,12 @@
 package com.reamber.core.openai.model.request;
 
 import com.reamber.core.openai.OpenAIClient;
-import com.reamber.core.openai.model.response.model.Model;
+import com.reamber.core.openai.model.request.model.Model;
 import lombok.Builder;
 import lombok.Data;
 
 /**
- * @see <a href="https://beta.openai.com/docs/api-reference/embeddings/create">OpenAI Embeddings API</a>
+ * @see <a href="https://platform.openai.com/docs/api-reference/embeddings/create">OpenAI Embeddings API</a>
  */
 @Data
 @Builder
@@ -15,7 +15,7 @@ public class EmbeddingRequest {
     /**
      * ID of the model to use. You can use the List models API {@link OpenAIClient#getModels()} or {@link Model} to see all of your available models.
      *
-     * @see <a href="https://beta.openai.com/docs/models/overview">Model overview</a>
+     * @see <a href="https://platform.openai.com/docs/models/overview">Model overview</a>
      */
     private Model model;
 

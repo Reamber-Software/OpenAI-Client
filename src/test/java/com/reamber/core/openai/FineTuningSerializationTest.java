@@ -3,7 +3,7 @@ package com.reamber.core.openai;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.reamber.core.openai.model.request.finetune.FineTuningStartRequest;
 import com.reamber.core.openai.model.response.finetune.FineTuningResult;
-import com.reamber.core.openai.model.response.model.Model;
+import com.reamber.core.openai.model.request.model.Model;
 import com.reamber.core.openai.util.FileUtil;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;

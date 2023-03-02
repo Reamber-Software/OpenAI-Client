@@ -1,0 +1,19 @@
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Please write Hello World"
+    }
+  ],
+  "temperature": 0.0,
+  "n": 1,
+  "stream": false,
+  "user": "OpenAIUser",
+  "max_tokens": 100,
+  "top_p": 0.0,
+  "stop": [],
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0,
+  "logit_bias": null
+}

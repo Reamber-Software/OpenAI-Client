@@ -9,7 +9,7 @@ import lombok.EqualsAndHashCode;
 import java.util.List;
 
 /**
- * <a href="https://beta.openai.com/docs/api-reference/fine-tunes">Fine-tunes</a>
+ * <a href="https://platform.openai.com/docs/api-reference/fine-tunes">Fine-tunes</a>
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

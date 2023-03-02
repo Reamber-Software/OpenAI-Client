@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * <a href="https://beta.openai.com/docs/api-reference/images">Images</a>
+ * <a href="https://platform.openai.com/docs/api-reference/images">Images</a>
  */
 @Data
 public class ImageResponse {

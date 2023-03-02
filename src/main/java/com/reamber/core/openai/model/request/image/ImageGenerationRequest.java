@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 
 /**
- * @see <a href="https://beta.openai.com/docs/api-reference/images/create">OpenAI Image Create API</a>
+ * @see <a href="https://platform.openai.com/docs/api-reference/images/create">OpenAI Image Create API</a>
  */
 @Data
 @Builder

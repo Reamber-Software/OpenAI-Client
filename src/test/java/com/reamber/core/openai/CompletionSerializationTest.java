@@ -3,7 +3,7 @@ package com.reamber.core.openai;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.reamber.core.openai.model.request.CompletionRequest;
 import com.reamber.core.openai.model.response.completion.Completion;
-import com.reamber.core.openai.model.response.model.Model;
+import com.reamber.core.openai.model.request.model.Model;
 import com.reamber.core.openai.util.FileUtil;
 import org.junit.jupiter.api.Test;
 

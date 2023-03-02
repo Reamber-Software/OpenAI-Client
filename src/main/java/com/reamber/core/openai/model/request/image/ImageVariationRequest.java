@@ -7,7 +7,7 @@ import lombok.Data;
 import java.io.File;
 
 /**
- * @see <a href="https://beta.openai.com/docs/api-reference/images/create-variation">OpenAI Image Variation API</a>
+ * @see <a href="https://platform.openai.com/docs/api-reference/images/create-variation">OpenAI Image Variation API</a>
  */
 @Data
 @Builder

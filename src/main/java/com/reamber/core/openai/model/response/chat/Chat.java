@@ -1,4 +1,4 @@
-package com.reamber.core.openai.model.response.embedding;
+package com.reamber.core.openai.model.response.chat;
 
 import com.reamber.core.openai.model.BaseResponse;
 import com.reamber.core.openai.model.response.Usage;
@@ -8,15 +8,15 @@ import lombok.EqualsAndHashCode;
 import java.util.List;
 
 /**
- * <a href="https://platform.openai.com/docs/api-reference/embeddings">Embeddings</a>
+ * <a href="https://platform.openai.com/docs/api-reference/chat">Chat</a>
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class Embedding extends BaseResponse {
-
-    private List<EmbeddingEntry> data;
+public class Chat extends BaseResponse {
 
     private String model;
 
     private Usage usage;
+
+    private List<ChatChoice> choices;
 }

@@ -1,14 +1,14 @@
 package com.reamber.core.openai.model.request.finetune;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.reamber.core.openai.model.response.model.Model;
+import com.reamber.core.openai.model.request.model.Model;
 import lombok.Builder;
 import lombok.Data;
 
 import java.util.List;
 
 /**
- * @see <a href="https://beta.openai.com/docs/api-reference/fine-tunes">OpenAI Fine-tunes API</a>
+ * @see <a href="https://platform.openai.com/docs/api-reference/fine-tunes">OpenAI Fine-tunes API</a>
  */
 @Data
 @Builder

@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.Data;
 
 /**
- * @see <a href="https://beta.openai.com/docs/api-reference/moderations/create">OpenAI Moderation API</a>
+ * @see <a href="https://platform.openai.com/docs/api-reference/moderations/create">OpenAI Moderation API</a>
  */
 @Data
 @Builder

@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * <a href="https://beta.openai.com/docs/api-reference/files">Files</a>
+ * <a href="https://platform.openai.com/docs/api-reference/files">Files</a>
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.reamber.core.openai.model.request.EmbeddingRequest;
 import com.reamber.core.openai.model.response.embedding.Embedding;
-import com.reamber.core.openai.model.response.model.Model;
+import com.reamber.core.openai.model.request.model.Model;
 import com.reamber.core.openai.util.FileUtil;
 import org.junit.jupiter.api.Test;
 
