@@ -3,12 +3,14 @@ package com.reamber.core.openai;
 import com.reamber.core.openai.model.request.CompletionRequest;
 import com.reamber.core.openai.model.request.EditRequest;
 import com.reamber.core.openai.model.request.EmbeddingRequest;
+import com.reamber.core.openai.model.request.chat.ChatRequest;
 import com.reamber.core.openai.model.request.finetune.FineTuningStartRequest;
 import com.reamber.core.openai.model.request.image.ImageEditRequest;
 import com.reamber.core.openai.model.request.image.ImageGenerationRequest;
 import com.reamber.core.openai.model.request.image.ImageVariationRequest;
 import com.reamber.core.openai.model.request.moderation.ModerationRequest;
 import com.reamber.core.openai.model.response.ListResponse;
+import com.reamber.core.openai.model.response.chat.Chat;
 import com.reamber.core.openai.model.response.completion.Completion;
 import com.reamber.core.openai.model.response.edit.Edit;
 import com.reamber.core.openai.model.response.embedding.Embedding;
@@ -61,6 +63,15 @@ public interface OpenAIClient {
      */
     @RequestLine("POST /v1/completions")
     Completion complete(CompletionRequest request);
+
+    /**
+     * Creates a completion for the chat message
+     *
+     * @param request The request with a message and additional parameters.
+     * @return The model will return the continued chat conversation or completion.
+     */
+    @RequestLine("POST /v1/chat/completions")
+    Chat chat(ChatRequest request);
 
     /**
      * Creates a new edit for the provided input, instruction, and parameters.
